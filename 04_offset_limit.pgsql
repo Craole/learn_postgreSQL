@@ -1,0 +1,11 @@
+SELECT
+  *
+FROM
+  person
+OFFSET
+  3
+LIMIT
+  5
+  -- FETCH LAST
+  -- 5 ROW ONLY
+;
